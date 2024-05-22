@@ -37,7 +37,7 @@ body{
 }
 
 .turn-container .turn-box{
-    border: 3px solid #ECF39E;
+    border: 3px solid #ffe5e9;
     font-size: 1.6rem;
     font-weight: 700;
 }
@@ -52,7 +52,7 @@ body{
     left: 0;
     width: 85px;
     height: 40px;
-    background-color: #4F772D;
+    background-color: #ef6580;
     z-index: -1;
 }
 
@@ -63,14 +63,14 @@ body{
     height: 250px;
     width: 250px;
     margin: 30px auto;
-    border: 2px solid #ECF39E;
+    border: 2px solid #ffd6de;
 }
 
 .box{
     cursor: pointer;
     font-size: 2rem;
     font-weight: 700;
-    border: 2px solid #ECF39E;
+    border: 2px solid #ffd6de;
 }
 
 .box:hover{
@@ -94,8 +94,16 @@ body{
 }
 .prettyButton
 {
-    background-color: #ef6580;
+    background-color: #ff889e;
     color: #ffffff;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+.prettyButton:hover
+{
+    background-color: #ffffff;
+    color: #ff889e;
     border: none;
     font-size: 1.2rem;
     border-radius: 5px;
