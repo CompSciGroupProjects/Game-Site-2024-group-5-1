@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script src="dictionary.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload = "generate()" id="body">
+<div id = "lives" style = "outline: 5px solid black; text-align: center">
+    <h1>Lives</h1>
+    <p id = "hearts" style = "color: darkred"></p>
+</div>
+
+
+
+
+<div style = "margin-top: 100px; margin-bottom: 100px">
+    <p id = "word" style = "text-align: center; font-size: x-large"></p>
+</div>
+
+<div id = "keyboard" style = "font-size: x-large">
+<table>
+    <tr>
+        <td><button id = 'q' onclick = "check('q')">q</button></td>
+        <td><button id = 'w' onclick = "check('w')">w</button></td>
+        <td><button id = 'e' onclick = "check('e')">e</button></td>
+        <td><button id = 'r' onclick = "check('r')">r</button></td>
+        <td><button id = 't' onclick = "check('t')">t</button></td>
+        <td><button id = 'y' onclick = "check('y')">y</button></td>
+        <td><button id = 'u' onclick = "check('u')">u</button></td>
+        <td><button id = 'i' onclick = "check('i')">i</button></td>
+        <td><button id = 'o' onclick = "check('o')">o</button></td>
+        <td><button id = 'p' onclick = "check('p')">p</button></td>
+    </tr>
+    <tr>
+        <td><button id='a' onclick = "check('a')">a</button></td>
+        <td><button id = 's' onclick = "check('s')">s</button></td>
+        <td><button id = 'd' onclick = "check('d')">d</button></td>
+        <td><button id = 'f' onclick = "check('f')">f</button></td>
+        <td><button id = 'g' onclick = "check('g')">g</button></td>
+        <td><button id = 'h' onclick = "check('h')">h</button></td>
+        <td><button id = 'j' onclick = "check('j')">j</button></td>
+        <td><button id = 'k' onclick = "check('k')">k</button></td>
+        <td><button id = 'l' onclick = "check('l')">l</button></td>
+    </tr>
+    <tr>
+        <td><button id = 'z' onclick = "check('z')">z</button></td>
+        <td><button id = 'x' onclick = "check('x')">x</button></td>
+        <td><button id = 'c' onclick = "check('c')">c</button></td>
+        <td><button id = 'v' onclick = "check('v')">v</button></td>
+        <td><button id = 'b' onclick = "check('b')">b</button></td>
+        <td><button id = 'n' onclick = "check('n')">n</button></td>
+        <td><button id = 'm' onclick = "check('m')">m</button></td>
+    </tr>
+</table>
+</div>
+<div id = "answer">
+    <p></p>
+</div>
+<div style = "outline: 5px solid black; text-align: center">
+    <h1>Letters Clicked</h1>
+    <p id = "clicked"></p>
+</div>
+
+</body>
+</html>
