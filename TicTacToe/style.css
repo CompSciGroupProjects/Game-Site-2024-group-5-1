@@ -1,5 +1,5 @@
 *{
-    color: #ECF39E;
+    color: #FDE9EA;
     font-family: sans-serif;
     transition: 0.2s ease-in-out;
     user-select: none;
@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #90A955;
+    background-color: #869F77;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -52,7 +52,7 @@ body{
     left: 0;
     width: 85px;
     height: 40px;
-    background-color: #ef6580;
+    background-color: #588061;
     z-index: -1;
 }
 
@@ -74,7 +74,7 @@ body{
 }
 
 .box:hover{
-    background-color: #4F772D;
+    background-color: #588061;
 }
 
 #play-again{
@@ -94,16 +94,16 @@ body{
 }
 .prettyButton
 {
-    background-color: #ff889e;
-    color: #ffffff;
+    background-color: #E7B5AC;
+    color:#FDE9EA;
     border: none;
     font-size: 1.2rem;
     border-radius: 5px;
 }
 .prettyButton:hover
 {
-    background-color: #ffffff;
-    color: #ff889e;
+    background-color: #FDE9EA;
+    color: #E7B5AC;
     border: none;
     font-size: 1.2rem;
     border-radius: 5px;
