@@ -1,0 +1,10 @@
+body{
+    font-family: "Comic Sans MS", "serif";
+    background-color: #90A955;
+    color: #FDE9EA;
+}
+
+#ruleList
+{
+    list-style-type: none;
+}
