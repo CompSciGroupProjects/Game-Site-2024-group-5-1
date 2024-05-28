@@ -2,8 +2,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: "Comic Sans MS", "Garamond", monospace;
-    background-color: #90A955;
+    font-family: sans-serif;
+    background-color: #869F77;
+    color: #FDE9EA;
 }
 
 h1,
@@ -16,7 +17,7 @@ h2 {
     grid-template-columns: repeat(7, 50px);
     grid-gap: 5px;
     margin-top: 20px;
-    background-color: #ef6580;
+    background-color: #E7B5AC;
 }
 
 .square {
@@ -32,7 +33,7 @@ h2 {
 .square::before {
     content: '\2661';
     font-size: 40px;
-    color: #cff1f1;
+    color: #ef6580;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -43,7 +44,7 @@ h2 {
 .square.filled.player2::before {
     content: '\2661';
     font-size: 40px;
-    color: #cff1f1;
+    color: #ef6580;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -56,14 +57,14 @@ h2 {
 .square.filled.player1::before {
     content: '\2661';
     font-size: 35px;
-    color: #cff1f1;
+    color: #FFF8DC;
     background-color: #87CEEB;
 }
 
 .square.filled.player2::before {
     content: '\2661';
     font-size: 35px;
-    color: #cff1f1;
+    color: #FFF8DC;
     background-color: #a3eb87;
 }
 
@@ -75,7 +76,7 @@ h2 {
 }
 
 #reset-button {
-    background-color: #8ac8dc;
+    background-color: #588061;
     color: #FFF8DC;
     padding: 15px 32px;
     text-align: center;
@@ -88,6 +89,6 @@ h2 {
 }
 
 #reset-button:hover {
-    color: #8ac8dc;
+    color: #588061;
     background-color: #FFF8DC;
 }
