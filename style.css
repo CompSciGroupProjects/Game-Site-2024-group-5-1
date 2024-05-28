@@ -2,11 +2,33 @@ body
 {
     background-color: #869F77;
 }
-#carosool
+.corootsel
 {
-    margin: 10%
+    margin: 15% auto;
 }
-.cords
+.cardspaceythingy
 {
-    margin: 10%
+
+    text-align:center;
+    margin-bottom:15%
+}
+.carost
+{
+
+    margin-left:auto;
+    margin-right:auto;
+    width:35vh
+}
+.colored
+{
+    background-color: #FDE9EA;
+    color: #e090a5;
+}
+.coloredsub
+{
+    color: #E7B5AC;
+}
+.colorlink
+{
+    color: #f1134a
 }

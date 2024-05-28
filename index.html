@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class = "navbar navbar-expand-lg fixed-top navbar-dark" id ="navBar">
+    <nav class = " navbar navbar-expand-lg fixed-top navbar-dark" id ="navBar">
     <div class="container-fluid">
         <a class = "navbar-brand text-white" href = "">Game-Nam Style</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
@@ -44,44 +44,64 @@
         </div>
     </div>
 </nav>
-        <!-- The slideshow/carousel -->
-    <div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Rock Paper Scissor</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">.</p>
-                <a href="#" class="card-link">Rule Landing Page</a>
-                <a href="#" class="card-link">Another link</a>
+    
+    <div id="carouselExampleIndicators" class="container carousel slide corootsel" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner carost">
+            <div class="cardspaceythingy carousel-item active">
+                <div class="colored card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Rock Paper Scissor</h5>
+                        <h6 class="coloredsub card-subtitle mb-2 ">By Nabil Madhi</h6>
+                        <p class="card-text"></p>
+                        <a href="#" class="card-link colorlink">Rule Landing Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardspaceythingy carousel-item">
+                <div class="colored card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Tic-Tac-Toe</h5>
+                        <h6 class="coloredsub card-subtitle mb-2 ">By Matthew Hiro</h6>
+                        <p class="card-text"></p>
+                        <a href="#" class="card-link colorlink">Rule Landing Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardspaceythingy carousel-item">
+                <div class="colored card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Connect-4</h5>
+                        <h6 class="coloredsub card-subtitle mb-2 ">By Kripa Parmar</h6>
+                        <p class="card-text"></p>
+                        <a href="#" class="card-link colorlink">Rule Landing Page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cardspaceythingy carousel-item">
+                <div class="colored card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Hangman</h5>
+                        <h6 class="coloredsub card-subtitle mb-2 ">By Rachel Lu</h6>
+                        <p class="card-text"></p>
+                        <a href="#" class="card-link colorlink">Rule Landing Page</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-            </div>
-        </div>
+        <button id = left class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button id = right class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 </body>
 </html>
