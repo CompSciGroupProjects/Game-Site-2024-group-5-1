@@ -1,3 +1,3 @@
 function Hangman() {
-    window.location.href = "Hangman";
+    window.location.href = "../TicTacToe";
 }
