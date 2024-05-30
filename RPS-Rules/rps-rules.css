@@ -1,9 +1,10 @@
 body{
-    margin-top: 20px;
-    padding-top: 20px;
+    font-family: "Comic Sans MS", "serif";
     background-color: #869F77;
+    color: #f7dfda;
 }
 
-#rules{
-background-color: #869F77;
+#ruleList
+{
+    list-style-type: none;
 }
