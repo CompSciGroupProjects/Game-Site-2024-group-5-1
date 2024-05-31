@@ -4,3 +4,8 @@ body{
     color: #f7dfda;
 }
 
+#rulesList
+{
+    list-style-type: none;
+}
+
