@@ -1,3 +1,3 @@
 function RPS() {
-    window.location.href = "RockPaperScissors";
+    window.location.href = "../RockPaperScissors";
 }
